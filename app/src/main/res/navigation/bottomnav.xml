@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomnav"
+    app:startDestination="@id/workPage">
+
+    <activity
+        android:id="@+id/workPage"
+        android:name="com.example.popasdelivery.WorkPage"
+        android:label="activity_work_page"
+        tools:layout="@layout/activity_work_page" />
+    <fragment
+        android:id="@+id/orders"
+        android:name="com.example.popasdelivery.Orders"
+        android:label="fragment_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/account"
+        android:name="com.example.popasdelivery.account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>

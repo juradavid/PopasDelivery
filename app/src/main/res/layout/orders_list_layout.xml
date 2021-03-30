@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/card_view_corner_radius"
+    android:textCursorDrawable="@color/red_orange"
+    app:cardElevation="2dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:id="@+id/sdsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_max">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/greek" />
+
+        <LinearLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/order_title"
+                style="@style/BoldTitleTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                tools:text="La Pod Popas Utvin \nComanda de pe 12 Feb 2021 la\n21:20" />
+
+            <TextView
+                android:id="@+id/product1"
+                style="@style/SecondaryTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                tools:text="1 x Samsung Galaxy Note 10" />
+
+            <TextView
+                android:id="@+id/product2"
+                style="@style/SecondaryTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Produsul este aici"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/product3"
+                style="@style/SecondaryTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Produsul este aici"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/product4"
+                style="@style/SecondaryTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ alte produse"
+                android:textColor="@color/red_orange"
+                android:textSize="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/red_orange" />
+
+            <TextView
+                android:id="@+id/totalprice"
+                style="@style/SecondaryTextTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="120,00 Ron"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+
+        <!--<ImageButton
+                android:id="@+id/imageView10"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/red_rounded_circle"
+                app:srcCompat="@drawable/ic_baseline_add_24" />-->
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

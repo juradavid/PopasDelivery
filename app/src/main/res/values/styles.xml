@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="popUp">
+        <item name="stColorBackground">@color/red</item>
+        <item name="stTextColor">@color/white</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#fff</item>
+        <item name="stTextBold">true</item>
+    </style>
+    <style name="SecondaryTextTheme">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="BoldTitleTextTheme">
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="cartFull">
+        <item name="stTextColor">#fff</item>
+        <item name="stTextSize">14sp</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stColorBackground">@color/red_orange</item>
+        <item name="stIconStart">@drawable/ic_baseline_shopping_basket_24</item>
+        <item name="stRadius">35dp</item>
+        <item name="stLength">SHORT</item>
+    </style>
+</resources>

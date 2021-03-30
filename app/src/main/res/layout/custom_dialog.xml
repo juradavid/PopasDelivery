@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:textCursorDrawable="@color/red_orange"
+    android:backgroundTint="@null"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pb"
+        android:text="Cod"
+        android:textColor="@color/red_orange"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/type_email_rounded"
+        android:fontFamily="@font/pr"
+        android:hint="Codul"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:paddingRight="60dp"
+        android:maxLength="6"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textColorHint="@color/dimgrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btn_anulare"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/stroke_rounded_button"
+        android:fontFamily="@font/peb"
+        android:text="Anulare"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:backgroundTint="@null"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="@+id/edit_code"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_code"
+        app:layout_constraintTop_toBottomOf="@+id/edit_code" />
+
+    <Button
+        android:id="@+id/btn_resetare"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/stroke_rounded_button"
+        android:fontFamily="@font/peb"
+        android:text="Resetare"
+        android:textColor="@color/black"
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="12dp"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@+id/edit_code"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_code"
+        app:layout_constraintTop_toBottomOf="@+id/edit_code" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_code"
+        app:layout_constraintEnd_toEndOf="@+id/edit_code"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/edit_code"
+        app:layout_constraintTop_toTopOf="@+id/edit_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

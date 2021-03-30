@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Popas Delivery</string>
+    <string name="forgot_password"><u>Ai uitat parola?</u></string>
+    <string name="forgot_password_quotes">Ai uitat parola? Se intâmplă mai des decât crezi.\nCompletează adresa de e-mail a contului tău si vei primi un cod de resetare a parolei</string>
+    <string name="terms">Am citit și sunt de acord cu Termenele și condițiile, cu Politicile de confidențialitate și utilizare a cookie-urilor și tehnologiilor similare. Citeste</string>
+    <string name="title_activity_costum__dialog">Costum_Dialog</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="emailError">Te rugăm să introduci o adresă de e-mail validă</string>
+    <string name="passError">Te rugăm să introduci o parolă validă</string>
+    <string name="accInvalid">Adresa de e-mail sau parola introdusă nu a fost gasită</string>
+    <string name="emailInvalid">Adresa de e-mail introdusă nu a fost gasită</string>
+    <string name="newAccError">Verificati datele introduse</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ds">Verifica numele introdus</string>
+    <string name="closed_nav">Bara a fost inchisa</string>
+    <string name="opened_nav">Bara a fost deschisa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
